@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 500px;
+    box-shadow: 0px 0px 10px 1px;
+    margin: 50px;
+}
+
+h3 {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    max-width: 720px;
+}
+
+#home-button > h3 {
+    background-color: rgb(135, 135, 255);
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    margin: 10px 0px 0px 10px;
+    
+}
+
+#landing-title {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241, 241, 241);
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.description {
+    background-color: bisque;
+    max-width: 720px;
+}
+
+.description > p{
+    padding: 10px;
+}
+
+
+.unordered-list {
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.unordered-list > li {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0px 5px 10px 0px;
+    transition: 0.1s;
+}
+
+.unordered-list > li:hover {
+    box-shadow: 0px 3px 8px 0px;
+    background-color: rgba(238, 238, 238, 0.603);
+}
+
+@media screen and (max-width: 600px) {
+    .unordered-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
